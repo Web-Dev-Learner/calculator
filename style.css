@@ -1,0 +1,85 @@
+h1{
+    color:rgba(240, 10, 10, 0.578);
+}
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height:100vh;
+    width:100vw;
+    background-color: rgb(14, 16, 16);
+}
+.btn{
+    height:75px;
+    width:75px;
+    margin:15px;
+    font-size: 40px;
+}
+.number{
+    border:2px solid gold;
+    border-radius: 10px;
+    color:rgb(118, 212, 224);
+}
+.number:hover{
+    background-color:rgb(207, 168, 52);
+}
+.operator{
+    border:2px solid rgb(237, 170, 246);
+    border-radius: 10px;
+    color:beige;
+}
+.operator:hover{
+    background-color:rgb(221, 147, 213);
+}
+.decimal{
+    border:2px solid rgb(114, 116, 214);
+    border-radius: 10px;
+    color:rgb(142, 88, 6);
+}
+.decimal:hover{
+    background-color:rgb(158, 186, 232);
+    
+}
+.equal{
+    border:2px solid rgb(15, 126, 9);
+    border-radius: 10px;
+    color:rgb(103, 219, 37);
+}
+.equal:hover{
+    background-color:rgb(177, 247, 174);
+    
+}
+#clear-btn{
+    border:2px solid rgb(122, 118, 87);
+    border-radius: 10px;
+    color:rgb(239, 243, 236);
+}
+#clear-btn:hover{
+    background-color:rgb(105, 104, 103);
+}
+.first_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+#screen{
+    width:300px;
+    border:2px solid mediumvioletred;
+    height:75px;
+    margin:15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.previous{
+    font-size: 25px;
+    color:azure
+}
+.current{
+    font-size: 30px;
+    color: azure;
+}
