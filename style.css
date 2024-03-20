@@ -1,5 +1,5 @@
 h1{
-    color:rgba(240, 10, 10, 0.578);
+    color:rgba(240, 48, 5, 0.578);
 }
 body{
     align-items: center;
@@ -74,12 +74,13 @@ body{
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+    
 }
 .previous{
     font-size: 25px;
-    color:azure
+    color:rgb(161, 240, 158)
 }
 .current{
     font-size: 30px;
-    color: azure;
+    color: rgb(75, 156, 156);
 }
